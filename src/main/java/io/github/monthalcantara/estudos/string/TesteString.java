@@ -24,6 +24,17 @@ public class TesteString {
         String nomeAlterado = nome.replace("A", "a");
         System.out.println("Nome Alterado : " + nomeAlterado);
 
+        String vazio = " ";
+        System.out.println(vazio.isEmpty());//false
+        /*
+        * Apaga espaços em branco
+        * */
+        String outroVazio = vazio.trim();
+        System.out.println(outroVazio.isEmpty()); //true
+
+        String zup = "Zup";
+        System.out.println(zup.contains("p"));//true
+
 
     }
 }
