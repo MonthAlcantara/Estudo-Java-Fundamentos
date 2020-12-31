@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="estudo-java-geral:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/estudo_java_geral_jar</output-path>
+    <root id="archive" name="estudo-java-geral.jar">
+      <element id="module-output" name="estudo-java-geral" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
