@@ -17,6 +17,7 @@ public class StringBuilderTest {
 
         builder.deleteCharAt(2);
         System.out.println(builder); // hep-me
+
     }
 
 }

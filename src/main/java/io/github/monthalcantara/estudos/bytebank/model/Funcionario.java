@@ -16,6 +16,16 @@ public class Funcionario {
         this.dataNascimento = dataNascimento;
     }
 
+    public Funcionario() {
+
+    }
+
+    public boolean testeReferencia(){
+        Funcionario outro = this;
+        outro.setId(1000);
+        return this.equals(outro);
+    }
+
     public int getId() {
         return id;
     }
