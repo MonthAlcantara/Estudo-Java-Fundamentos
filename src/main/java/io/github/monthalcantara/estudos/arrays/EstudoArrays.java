@@ -5,6 +5,7 @@ import org.apache.commons.lang3.ArrayUtils;
 import java.util.Arrays;
 
 public class EstudoArrays {
+
     public static void main(String[] args) {
 
         String[] array1 = new String[]{"a", "b", "c", "d"};

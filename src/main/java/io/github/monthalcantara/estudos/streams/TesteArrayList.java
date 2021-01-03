@@ -31,5 +31,7 @@ public class TesteArrayList {
         funcionarios.remove(func1);
         System.out.println(funcionarios.indexOf(func2));
 
+
+
     }
 }
