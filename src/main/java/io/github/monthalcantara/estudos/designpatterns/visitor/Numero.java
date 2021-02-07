@@ -11,4 +11,9 @@ public class Numero implements Expressao {
     public int avalia() {
         return numero;
     }
+
+    @Override
+    public void aceita(ImpressoraVisitor visitor) {
+
+    }
 }

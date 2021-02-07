@@ -16,4 +16,9 @@ public class Subtracao implements Expressao {
         return expressao1 - expressao2;
     }
 
+    @Override
+    public void aceita(ImpressoraVisitor visitor) {
+
+    }
+
 }
