@@ -1,6 +1,9 @@
 package io.github.monthalcantara.estudos.lambdas;
 
 public class RegraSalario extends Regra {
+
+    private final double MINIMO_SALARIO_PARA_APROVACAO = 2000;
+
     public RegraSalario() {
         super(null);
     }
@@ -11,7 +14,7 @@ public class RegraSalario extends Regra {
 
     @Override
     protected boolean aplicar(Cliente cliente) {
-        if (cliente.getSalario() >= 2000) {
+        if (cliente.getSalario() >= MINIMO_SALARIO_PARA_APROVACAO) {
             return aplicarProximaRegra(cliente);
         }
         return false;
