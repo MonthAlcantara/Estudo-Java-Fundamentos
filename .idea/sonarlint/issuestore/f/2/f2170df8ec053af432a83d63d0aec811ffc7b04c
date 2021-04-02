@@ -1,0 +1,6 @@
+
+{
+java:S3012B"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(‚öÞ˜øÿÿÿÿ8Ìê“ƒ‰/
+X	java:S125V"<This block of commented-out lines of code should be removed.(•°ûÄ8Ìê“ƒ‰/
+q
+java:S1192"TDefine a constant instead of duplicating this literal "PosiÃ§Ã£o invÃ¡lida" 3 times.(ãýàÝ8èÔˆ‚‰/
