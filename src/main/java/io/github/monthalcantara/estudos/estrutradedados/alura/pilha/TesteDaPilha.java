@@ -48,6 +48,8 @@ public class TesteDaPilha {
 
         System.out.println(nomes);
         for(int i = nomes.size(); i > 0; i-- ){
+            // poderia ter passado o pop aqui pois ele também retorna o valor mas a ideia é
+            // testar que o peek retorna o ultimo valor da pilha mas não o remove
             System.out.print(nomes.peek());
             nomes.pop();
         }
